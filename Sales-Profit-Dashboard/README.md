@@ -1,8 +1,8 @@
-# 📊 Sales & Profit Analysis Dashboard (Power BI)
+# Sales & Profit Analysis Dashboard (Power BI)
 
 ---
 
-## 🔎 Project Overview
+## Project Overview
 
 This Power BI dashboard analyzes **sales growth, profitability performance, and pricing impact** across regions, product categories, and customer segments.
 
@@ -10,7 +10,7 @@ The purpose of this analysis is to determine whether strong revenue growth is tr
 
 ---
 
-## 🎯 Business Objective
+## Business Objective
 
 Despite strong sales growth, management wanted to evaluate:
 
@@ -21,7 +21,7 @@ Despite strong sales growth, management wanted to evaluate:
 
 ---
 
-## 📌 Key Metrics
+## Key Metrics
 
 - **YoY Sales Growth:** 47% ▲  
 - **Total Sales:** $2.30M  
@@ -31,7 +31,7 @@ Despite strong sales growth, management wanted to evaluate:
 
 ---
 
-## 🔍 Key Insights
+## Key Insights
 
 - Sales increased significantly (**+47% YoY**), demonstrating strong revenue expansion.
 - Profit margin remains below the **15% target** at **12%**, indicating a **3% performance gap**.
@@ -42,27 +42,27 @@ Despite strong sales growth, management wanted to evaluate:
 
 ---
 
-## 📊 Analysis Highlights
+## Analysis Highlights
 
-### 📉 Discount vs Margin Impact
+### Discount vs Margin Impact
 
 Aggressive discounting (**17%**) correlates with margin erosion (~2%), suggesting pricing inefficiencies.
 
-### 🌍 Regional Profitability
+### Regional Profitability
 
 The **West region** consistently delivers stronger profit margins compared to the Central region.
 
-### 🛒 Category Performance
+### Category Performance
 
 **Technology** leads in profitability, while **Furniture** presents margin improvement opportunities.
 
-### 📦 Product Contribution
+### Product Contribution
 
 Top 10 products drive the majority of profit, while bottom 10 products contribute to margin leakage.
 
 ---
 
-## 💡 Recommendations
+## Recommendations
 
 - Optimize discount strategies to reduce margin erosion.
 - Reassess pricing in low-margin categories.
@@ -71,7 +71,7 @@ Top 10 products drive the majority of profit, while bottom 10 products contribut
 
 ---
 
-## 🛠 Tools & Techniques Used
+## Tools & Techniques Used
 
 - **Power BI**
 - **DAX** (YoY Growth, Target Variance, Conditional Formatting)

@@ -31,3 +31,30 @@ The goal of this analysis is to evaluate long-term EV market expansion and ident
 - Tesla leads manufacturer adoption by a substantial margin.
 
 - Approximately 58% of EVs qualify under CAFV eligibility criteria.
+
+## Analytical Approach
+
+- Implemented a **star schema data model.**
+
+- Developed DAX measures for **YoY growth** and **CAGR calculations.**
+
+- Analyzed manufacturer ranking, vehicle type distribution, and county-level concentration.
+
+- Evaluated policy impact through CAFV eligibility distribution.
+
+## Tools Used
+
+- Power BI
+
+- DAX (YoY Growth, CAGR, Market Share)
+
+- Dimensional Data Modeling (Star Schema)
+
+## Business Value
+
+This dashboard enables evaluation of EV growth sustainability, manufacturer dominance, geographic concentration, and policy effectiveness, supporting data-driven decision-making for analysts, policymakers, and investors.
+
+## EV Dashboard Overview
+
+<img width="1307" height="727" alt="ev-dashboard-overview" src="https://github.com/user-attachments/assets/39b64c1a-82dc-4417-a16f-d17a0e47b9ed" />
+

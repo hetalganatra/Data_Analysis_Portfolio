@@ -77,3 +77,7 @@ Top 10 products drive the majority of profit, while bottom 10 products contribut
 - KPI Target vs Actual Analysis
 - Profitability & Pricing Analysis
 - Executive Dashboard Design & Data Storytelling
+- 
+
+- <img width="1302" height="721" alt="Sales and Profit dashboard overview" src="https://github.com/user-attachments/assets/09a66ac1-d339-4021-a6bb-d2b062dcd463" />
+

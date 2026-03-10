@@ -1,0 +1,247 @@
+{
+  "name": "Event Analysis Agent",
+  "nodes": [
+    {
+      "parameters": {
+        "public": true,
+        "initialMessages": "Hi there! 👋\nI am Data Analyst Assistant. How can I help you?\n",
+        "options": {
+          "inputPlaceholder": "Type your question..",
+          "title": "Your First Insight",
+          "responseMode": "lastNode"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.4,
+      "position": [
+        -96,
+        0
+      ],
+      "id": "78c249ba-7ee1-4753-bc28-6c8c4480b85b",
+      "name": "When chat message received",
+      "webhookId": "0c182e3a-b6dd-4b89-a294-5703b009c81d"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "value": "gpt-4.1-mini",
+          "mode": "list",
+          "cachedResultName": "gpt-4.1-mini"
+        },
+        "builtInTools": {},
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.3,
+      "position": [
+        64,
+        192
+      ],
+      "id": "3dc47758-1189-458a-9c6b-5b68acb79806",
+      "name": "OpenAI Chat Model",
+      "credentials": {
+        "openAiApi": {
+          "id": "9GejJscXJhwHeJnL",
+          "name": "n8n free OpenAI API credits"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "contextWindowLength": 10
+      },
+      "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+      "typeVersion": 1.3,
+      "position": [
+        240,
+        192
+      ],
+      "id": "fb732b51-857b-44bd-a386-175aedca9174",
+      "name": "Simple Memory"
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "1-MbYjaMhtKvqprTy8AwxlhwS2WYKvCeCJp0efOd7WCI",
+          "mode": "list",
+          "cachedResultName": "Concert_Analysis",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1-MbYjaMhtKvqprTy8AwxlhwS2WYKvCeCJp0efOd7WCI/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 638187607,
+          "mode": "list",
+          "cachedResultName": "Ai Insight",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1-MbYjaMhtKvqprTy8AwxlhwS2WYKvCeCJp0efOd7WCI/edit#gid=638187607"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Run_Date": "={{$now}}",
+            "Ai_Summary": "={{$json[\"output\"]}}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "Run_Date",
+              "displayName": "Run_Date",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Ai_Summary",
+              "displayName": "Ai_Summary",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        528,
+        0
+      ],
+      "id": "5d09cb01-f53c-4bcd-a551-b636bf735272",
+      "name": "Ai Insight",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "WFEaSGNxj4aMDeLY",
+          "name": "Google Sheets account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "options": {
+          "systemMessage": "You are a hYou are a data-processing AI agent operating inside an n8n automation system.\n\nYour responsibilities:\n- Analyze structured input data.\n- Extract key metrics.\n- Identify trends or anomalies.\n- Provide actionable business insights.\n- Return results in structured JSON format suitable for API or database storage.\n\nRules:\n- Do not add explanations unless requested.\n- Do not return markdown.\n- Always maintain consistent field names.\n- If calculations are required, show numeric values only (no symbols like % or $ unless requested).\n\nYou are part of an automated pipeline. Output must be machine-readable and predictable."
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3.1,
+      "position": [
+        144,
+        0
+      ],
+      "id": "6f7a0837-b31f-483d-b687-f53bfcbb43ba",
+      "name": "Event Analysis Agent"
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "1-MbYjaMhtKvqprTy8AwxlhwS2WYKvCeCJp0efOd7WCI",
+          "mode": "list",
+          "cachedResultName": "Concert_Analysis",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1-MbYjaMhtKvqprTy8AwxlhwS2WYKvCeCJp0efOd7WCI/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 554866406,
+          "mode": "list",
+          "cachedResultName": "BF_Concert_2019-2020",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1-MbYjaMhtKvqprTy8AwxlhwS2WYKvCeCJp0efOd7WCI/edit#gid=554866406"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheetsTool",
+      "typeVersion": 4.7,
+      "position": [
+        432,
+        176
+      ],
+      "id": "e9e3c4e3-dd97-4e4a-a509-9117ab81931c",
+      "name": "GetConcertData",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "WFEaSGNxj4aMDeLY",
+          "name": "Google Sheets account 2"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When chat message received": {
+      "main": [
+        [
+          {
+            "node": "Event Analysis Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Event Analysis Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Simple Memory": {
+      "ai_memory": [
+        [
+          {
+            "node": "Event Analysis Agent",
+            "type": "ai_memory",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Event Analysis Agent": {
+      "main": [
+        [
+          {
+            "node": "Ai Insight",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "GetConcertData": {
+      "ai_tool": [
+        [
+          {
+            "node": "Event Analysis Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "aec478da-f8bd-48f0-a1c9-70c6152ed516",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "a359dd6fb553a6661eeb4e527515c8771493eef4d3edc059141cf055c2efd53c"
+  },
+  "id": "16ZeHQ9D9JARjOiu",
+  "tags": []
+}

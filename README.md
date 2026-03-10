@@ -1,56 +1,99 @@
-# Data_Analysis_Portfolio
+# 📊 Data Analysis Portfolio – Hetal Ganatra
 
-## About Me
+Welcome to my Data Analysis Portfolio.  
+This repository showcases projects focused on **data analytics, business intelligence, and AI-powered workflow automation**.  
 
-Business Intelligence and Data Analytics professional specializing in Power BI, dimensional data modeling, and DAX-based performance reporting. I focus on transforming raw data into structured models and delivering clear, KPI-driven insights to support data-driven decision-making.
+Each project demonstrates how data can be transformed into **actionable insights to support business decision-making**.
 
-## Overview
+---
 
-This repository showcases Power BI dashboard projects focused on transforming raw data into structured models and delivering actionable business insights through KPI-driven reporting.
+# 🚀 Projects
 
-Each project demonstrates strong data modeling, DAX calculations, and executive-level visualization skills.
+## 🤖 AI Event Analysis Agent
+An AI-powered analytics workflow that automatically analyzes event data and generates performance insights.
 
-## Featured Projects
-### EV Adoption Dashboard
+**Key Features**
+- Automated event performance analysis
+- AI-generated insights on revenue and ticket sales
+- Integration with Google Sheets for data storage
+- Workflow automation using n8n
 
-#### Electric Vehicle Adoption, Growth & Policy Insights (2016–2023)
+**Technologies**
+- n8n
+- OpenAI GPT
+- Google Sheets
+- AI Workflow Automation
 
-- 41.9% CAGR in EV adoption (2016–2023)
+📁 Folder: `AI_Event_Analysis_Agent`
 
-- 436% YoY growth in latest year
+---
 
-- 80.9% BEV market share
+## ⚡ EV Adoption Dashboard
+A Power BI dashboard analyzing **electric vehicle adoption trends** and market growth patterns.
 
-- Manufacturer dominance and county-level concentration analysis
+**Key Insights**
+- EV adoption growth trends
+- Distribution of electric vehicle types
+- Geographic EV adoption analysis
+- Market growth indicators
 
-- Policy impact evaluation (CAFV eligibility)
+**Tools Used**
+- Power BI
+- Data Modeling
+- DAX
+- Data Visualization
 
-#### Skills: Time Intelligence (YoY, CAGR), Market Share Analysis, Star Schema Modeling
+📁 Folder: `EV-Adoption-Dashboard`
 
-### Sales & Profit Dashboard
+---
 
-#### Sales & Profit Performance Analysis
+## 💰 Sales Profit Dashboard
+A data visualization project analyzing **sales performance and profitability trends**.
 
-- Revenue and profitability trend analysis
+**Key Insights**
+- Revenue and profit trends
+- Category-wise performance
+- Profit margin analysis
+- Sales distribution patterns
 
-- Product-level profit drivers and loss-makers
+**Tools Used**
+- Power BI
+- Data Cleaning
+- Data Modeling
+- KPI Visualization
 
-- Discount impact on margin performance
+📁 Folder: `Sales-Profit-Dashboard`
 
-- Regional profit margin heatmap
+---
 
-- Top/Bottom product contribution analysis
+# 🛠 Skills Demonstrated
 
-#### Skills: KPI Reporting, Profit Margin Analysis, DAX Measures, Dimensional Modeling
+- Data Analysis
+- Business Intelligence
+- Dashboard Development
+- Data Visualization
+- AI Workflow Automation
+- Data Modeling
+- Business Insights Generation
 
-## Technical Competencies
+---
 
-- Power BI Dashboard Development
+# 🧰 Tools & Technologies
 
-- Data Modeling (Star Schema)
+- Power BI  
+- SQL  
+- Excel  
+- n8n  
+- OpenAI  
+- Google Sheets  
+- Data Visualization Techniques  
 
-- DAX (Time Intelligence, Profit Margin, Growth Metrics)
+---
 
-- KPI & Executive Reporting
+## 👩‍💻 About Me
 
-- Business Performance Analytics
+I am an MBA student specializing in **Management Information Systems**, passionate about using data to generate actionable business insights.
+
+My work focuses on **data analysis, dashboard development, and AI-powered analytics automation**. I build projects that demonstrate how data can be cleaned, analyzed, and visualized to support strategic decision-making.
+
+I am particularly interested in leveraging tools such as **Power BI, SQL, Excel, and AI workflows** to create scalable analytics solutions.

@@ -65,13 +65,35 @@ A data visualization project analyzing **sales performance and profitability tre
 📁 Folder: `Sales-Profit-Dashboard`
 
 ---
+## 📈 End-to-End Retail Data Analysis & Predictive Modeling
+A complete data analytics project integrating multiple datasets to **generate insights and predict future performance.**
 
+**Key Insights**
+-Data cleaning and preprocessing (Python – Pandas)
+-Multi-table data integration (Sales, Customers, Products, Stores)
+-Feature engineering (time-based analysis)
+-Store expansion scoring model
+-Risk analysis for underperforming stores
+-Predictive modeling for revenue forecasting
+-Advanced visualizations with matplotlib
+
+**Business Insights**
+-Identified high-growth store locations for expansion
+-Flagged operational risk stores using scoring model
+-Forecasted product demand for next 6 months
+-Analyzed customer behavior and purchase trends
+
+📁 Folder: End-to-End-Retail-Data-Analysis
+
+---
 # 🛠 Skills Demonstrated
 
-- Data Analysis
-- Business Intelligence
+- Data Analysis & Exploration
+- Business Intelligence & Reporting
+- Predictive Analytics & Forecasting
 - Dashboard Development
 - Data Visualization
+- Data Cleaning & Transformation
 - AI Workflow Automation
 - Data Modeling
 - Business Insights Generation
@@ -80,13 +102,14 @@ A data visualization project analyzing **sales performance and profitability tre
 
 # 🧰 Tools & Technologies
 
+-Python (Pandas, NumPy, Matplotlib, Scikit-learn)
 - Power BI  
 - SQL  
 - Excel  
 - n8n  
 - OpenAI  
 - Google Sheets  
-- Data Visualization Techniques  
+  
 
 ---
 
@@ -94,6 +117,6 @@ A data visualization project analyzing **sales performance and profitability tre
 
 I am an MBA student specializing in **Management Information Systems**, passionate about using data to generate actionable business insights.
 
-My work focuses on **data analysis, dashboard development, and AI-powered analytics automation**. I build projects that demonstrate how data can be cleaned, analyzed, and visualized to support strategic decision-making.
+I enjoy transforming complex datasets into clear, actionable insights and building solutions that support data-driven decision-making.
 
-I am particularly interested in leveraging tools such as **Power BI, SQL, Excel, and AI workflows** to create scalable analytics solutions.
+I am particularly interested in leveraging tools such as **Power BI, Python, SQL, Excel, and AI workflows** to create scalable analytics solutions.

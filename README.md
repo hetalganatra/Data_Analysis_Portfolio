@@ -9,62 +9,6 @@ Each project demonstrates how data can be transformed into **actionable insights
 
 # 🚀 Projects
 
-## 🤖 AI Event Analysis Agent
-An AI-powered analytics workflow that automatically analyzes event data and generates performance insights.
-
-**Key Features**
-- Automated event performance analysis
-- AI-generated insights on revenue and ticket sales
-- Integration with Google Sheets for data storage
-- Workflow automation using n8n
-
-**Technologies**
-- n8n
-- OpenAI GPT
-- Google Sheets
-- AI Workflow Automation
-
-📁 Folder: `AI_Event_Analysis_Agent`
-
----
-
-## ⚡ EV Adoption Dashboard
-A Power BI dashboard analyzing **electric vehicle adoption trends** and market growth patterns.
-
-**Key Insights**
-- EV adoption growth trends
-- Distribution of electric vehicle types
-- Geographic EV adoption analysis
-- Market growth indicators
-
-**Tools Used**
-- Power BI
-- Data Modeling
-- DAX
-- Data Visualization
-
-📁 Folder: `EV-Adoption-Dashboard`
-
----
-
-## 💰 Sales Profit Dashboard
-A data visualization project analyzing **sales performance and profitability trends**.
-
-**Key Insights**
-- Revenue and profit trends
-- Category-wise performance
-- Profit margin analysis
-- Sales distribution patterns
-
-**Tools Used**
-- Power BI
-- Data Cleaning
-- Data Modeling
-- KPI Visualization
-
-📁 Folder: `Sales-Profit-Dashboard`
-
----
 ## 📈 End-to-End Retail Data Analysis & Predictive Modeling
 A complete data analytics project integrating multiple datasets to **generate insights and predict future performance.**
 
@@ -85,7 +29,58 @@ A complete data analytics project integrating multiple datasets to **generate in
 
 📁 Folder: End-to-End-Retail-Data-Analysis
 
+## 💰 Sales Profit Dashboard
+A data visualization project analyzing **sales performance and profitability trends**.
+
+**Key Insights**
+- Revenue and profit trends
+- Category-wise performance
+- Profit margin analysis
+- Sales distribution patterns
+
+**Tools Used**
+- Power BI
+- Data Cleaning
+- Data Modeling
+- KPI Visualization
+
+📁 Folder: `Sales-Profit-Dashboard`
+
+## ⚡ EV Adoption Dashboard
+A Power BI dashboard analyzing **electric vehicle adoption trends** and market growth patterns.
+
+**Key Insights**
+- EV adoption growth trends
+- Distribution of electric vehicle types
+- Geographic EV adoption analysis
+- Market growth indicators
+
+**Tools Used**
+- Power BI
+- Data Modeling
+- DAX
+- Data Visualization
+
+📁 Folder: `EV-Adoption-Dashboard`
+
 ---
+
+## 🤖 AI Event Analysis Agent
+An AI-powered analytics workflow that automatically analyzes event data and generates performance insights.
+
+**Key Features**
+- Automated event performance analysis
+- AI-generated insights on revenue and ticket sales
+- Integration with Google Sheets for data storage
+- Workflow automation using n8n
+
+**Technologies**
+- n8n
+- OpenAI GPT
+- Google Sheets
+- AI Workflow Automation
+
+📁 Folder: `AI_Event_Analysis_Agent`
 # 🛠 Skills Demonstrated
 
 - Data Analysis & Exploration

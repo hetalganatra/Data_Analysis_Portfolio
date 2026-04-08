@@ -110,8 +110,6 @@ An AI-powered analytics workflow that automatically analyzes event data and gene
 
 ## 👩‍💻 About Me
 
-I am an MBA student specializing in **Management Information Systems**, passionate about using data to generate actionable business insights.
+I am an MBA graduate in Management Information Systems with a passion for data analytics and business intelligence. I enjoy working with data to uncover insights, build dashboards, and solve business problems.
 
-I enjoy transforming complex datasets into clear, actionable insights and building solutions that support data-driven decision-making.
-
-I am particularly interested in leveraging tools such as **Power BI, Python, SQL, Excel, and AI workflows** to create scalable analytics solutions.
+I have hands-on experience with Power BI, Python, SQL, and Excel, and I focus on creating clear, impactful visualizations and analytics solutions that support better decision-making.

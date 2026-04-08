@@ -69,19 +69,19 @@ A data visualization project analyzing **sales performance and profitability tre
 A complete data analytics project integrating multiple datasets to **generate insights and predict future performance.**
 
 **Key Insights**
--Data cleaning and preprocessing (Python – Pandas)
--Multi-table data integration (Sales, Customers, Products, Stores)
--Feature engineering (time-based analysis)
--Store expansion scoring model
--Risk analysis for underperforming stores
--Predictive modeling for revenue forecasting
--Advanced visualizations with matplotlib
+- Data cleaning and preprocessing (Python – Pandas)
+- Multi-table data integration (Sales, Customers, Products, Stores)
+- Feature engineering (time-based analysis)
+- Store expansion scoring model
+- Risk analysis for underperforming stores
+- Predictive modeling for revenue forecasting
+- Advanced visualizations with matplotlib
 
 **Business Insights**
--Identified high-growth store locations for expansion
--Flagged operational risk stores using scoring model
--Forecasted product demand for next 6 months
--Analyzed customer behavior and purchase trends
+- Identified high-growth store locations for expansion
+- Flagged operational risk stores using scoring model
+- Forecasted product demand for next 6 months
+- Analyzed customer behavior and purchase trends
 
 📁 Folder: End-to-End-Retail-Data-Analysis
 

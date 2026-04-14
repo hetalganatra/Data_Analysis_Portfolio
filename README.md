@@ -27,7 +27,7 @@ A complete data analytics project integrating multiple datasets to **generate in
 - Forecasted product demand for next 6 months
 - Analyzed customer behavior and purchase trends
 
-📁 Folder: End-to-End-Retail-Data-Analysis
+📁 Folder: 01-End-to-End-Retail-Data-Analysis
 
 ## 💰 Sales Profit Dashboard
 A data visualization project analyzing **sales performance and profitability trends**.
@@ -44,7 +44,7 @@ A data visualization project analyzing **sales performance and profitability tre
 - Data Modeling
 - KPI Visualization
 
-📁 Folder: `Sales-Profit-Dashboard`
+📁 Folder: 02-Sales-Profit-Dashboard
 
 ## ⚡ EV Adoption Dashboard
 A Power BI dashboard analyzing **electric vehicle adoption trends** and market growth patterns.
@@ -61,7 +61,7 @@ A Power BI dashboard analyzing **electric vehicle adoption trends** and market g
 - DAX
 - Data Visualization
 
-📁 Folder: `EV-Adoption-Dashboard`
+📁 Folder: 03-EV-Adoption-Dashboard
 
 ---
 
@@ -80,10 +80,41 @@ An AI-powered analytics workflow that automatically analyzes event data and gene
 - Google Sheets
 - AI Workflow Automation
 
-📁 Folder: `AI_Event_Analysis_Agent`
+📁 Folder: 04-AI_Event_Analysis_Agent
+
+## 🚕 SQL Ride-Sharing Analysis
+
+A SQL-based data analysis project focusing on **data cleaning, validation, and business insights** using a ride-sharing dataset.
+
+**Key Work**
+- Cleaned and validated user data (emails, phone numbers)  
+- Handled missing and inconsistent values  
+- Ensured data integrity across multiple tables  
+- Fixed invalid timestamps and relationships  
+
+**Analysis Performed**
+- Total trips and revenue calculation  
+- Peak demand hour analysis  
+- Surge pricing impact on fares  
+- Trip status distribution  
+
+**Key Insights**
+- Peak demand occurs during evening hours  
+- Surge pricing significantly increases revenue  
+- Most trips occur without surge pricing  
+- Data quality issues were identified and resolved before analysis  
+
+**Tools Used**
+- MySQL  
+- SQL (Joins, Aggregations, CASE, Subqueries)  
+- VS Code  
+
+📁 **Folder:** 05-SQL-Ride-Sharing-Analysis
+
 # 🛠 Skills Demonstrated
 
 - Data Analysis & Exploration
+- SQL Data Cleaning & Querying
 - Business Intelligence & Reporting
 - Predictive Analytics & Forecasting
 - Dashboard Development
@@ -97,13 +128,14 @@ An AI-powered analytics workflow that automatically analyzes event data and gene
 
 # 🧰 Tools & Technologies
 
--Python (Pandas, NumPy, Matplotlib, Scikit-learn)
+- Python (Pandas, NumPy, Matplotlib, Scikit-learn)
 - Power BI  
 - SQL  
 - Excel  
 - n8n  
 - OpenAI  
-- Google Sheets  
+- Google Sheets
+- VS Code 
   
 
 ---

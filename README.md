@@ -111,31 +111,50 @@ A SQL-based data analysis project focusing on **data cleaning, validation, and b
 
 📁 **Folder:** 05-SQL-Ride-Sharing-Analysis
 
+## 📊 HR Salary Analytics Dashboard (Excel)
+
+An interactive Excel dashboard analyzing employee compensation across departments, roles, and performance using Pivot Tables and data visualization.
+
+**Key Insights**
+- Executive and technical roles dominate the highest salary range  
+- Operational roles earn significantly lower salaries  
+- Salary is primarily driven by role hierarchy and department  
+- Performance and gender have a relatively smaller impact on compensation  
+
+**Tools Used**
+- Microsoft Excel  
+- Pivot Tables  
+- Data Visualization (Charts & KPI Cards)  
+
+📁 Folder: 06-HR-Salary-Analytics
+
 # 🛠 Skills Demonstrated
 
-- Data Analysis & Exploration
-- SQL Data Cleaning & Querying
-- Business Intelligence & Reporting
-- Predictive Analytics & Forecasting
-- Dashboard Development
-- Data Visualization
-- Data Cleaning & Transformation
-- AI Workflow Automation
-- Data Modeling
-- Business Insights Generation
+- Data Analysis & Exploratory Data Analysis (EDA)
+- Data Cleaning & Transformation (Excel, SQL, Python)
+- SQL Data Cleaning, Querying & Validation
+- Pivot Table Analysis & Data Aggregation (Excel)
+- KPI Development & Dashboard Design
+- Business Intelligence & Reporting (Power BI, Excel)
+- Data Visualization & Storytelling
+- Predictive Analytics & Forecasting (Python)
+- Data Modeling & Feature Engineering
+- Business Insights Generation & Decision Support
+- AI Workflow Automation (n8n, OpenAI)
 
 ---
 
 # 🧰 Tools & Technologies
 
 - Python (Pandas, NumPy, Matplotlib, Scikit-learn)
-- Power BI  
-- SQL  
-- Excel  
-- n8n  
-- OpenAI  
+- SQL (Joins, Aggregations, Subqueries, Data Cleaning)
+- Power BI (DAX, Data Modeling, KPI Dashboards)
+- Excel (Pivot Tables, Charts, KPI Cards, Data Cleaning)
+- Data Visualization (Power BI, Excel, Matplotlib)
+- n8n (Workflow Automation)
+- OpenAI (AI Integration)
 - Google Sheets
-- VS Code 
+- VS Code
   
 
 ---

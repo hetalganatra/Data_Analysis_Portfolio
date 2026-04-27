@@ -126,7 +126,7 @@ An interactive Excel dashboard analyzing employee compensation across department
 - Pivot Tables  
 - Data Visualization (Charts & KPI Cards)  
 
-📁 Folder: 06-HR-Salary-Analytics
+📁 Folder: 06-Employee Analytics & Insights
 
 # 🛠 Skills Demonstrated
 

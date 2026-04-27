@@ -10,7 +10,7 @@ It also focuses on identifying key business problems driving attrition and provi
 - Microsoft Excel
 - Pivot Tables
 - Data Visualization (Charts & KPI Cards)
-- 
+  
 ## Dashboard Preview
 <img width="1395" height="626" alt="HR Attrition Dashboard" src="https://github.com/user-attachments/assets/6c445008-5d48-4d46-a4cd-24f62f2c9e92" />
 

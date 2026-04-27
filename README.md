@@ -111,7 +111,7 @@ A SQL-based data analysis project focusing on **data cleaning, validation, and b
 
 📁 **Folder:** 05-SQL-Ride-Sharing-Analysis
 
-## 📊 HR Salary Analytics Dashboard (Excel)
+## 💼 HR Salary Analytics (Excel)
 
 An interactive Excel dashboard analyzing employee compensation across departments, roles, and performance using Pivot Tables and data visualization.
 
@@ -125,6 +125,26 @@ An interactive Excel dashboard analyzing employee compensation across department
 - Microsoft Excel  
 - Pivot Tables  
 - Data Visualization (Charts & KPI Cards)  
+
+📁 Folder: 06-Employee Analytics & Insights
+
+## 👥 Employee Attrition Analysis (Excel)
+
+An Excel dashboard analyzing employee attrition to identify key drivers of turnover and retention challenges.
+**Key Insights**
+- Production (40%) and IT (36%) have highest attrition
+- 85% attrition is voluntary
+- Top drivers: better opportunities (24%), dissatisfaction (17%), pay (13%)
+- Higher attrition among low performers (56%, 38%)
+- Hiring source and manager impact retention significantly
+**Business Impact**
+- Identified high-risk departments and roles
+- Highlighted gaps in compensation and engagement
+- Provided data-driven recommendations to improve retention
+**Tools Used**
+- Microsoft Excel
+- Pivot Tables
+- Data Visualization (Charts & KPI Cards)
 
 📁 Folder: 06-Employee Analytics & Insights
 

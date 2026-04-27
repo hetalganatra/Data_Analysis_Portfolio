@@ -131,16 +131,19 @@ An interactive Excel dashboard analyzing employee compensation across department
 ## 👥 Employee Attrition Analysis (Excel)
 
 An Excel dashboard analyzing employee attrition to identify key drivers of turnover and retention challenges.
+
 **Key Insights**
 - Production (40%) and IT (36%) have highest attrition
 - 85% attrition is voluntary
 - Top drivers: better opportunities (24%), dissatisfaction (17%), pay (13%)
 - Higher attrition among low performers (56%, 38%)
 - Hiring source and manager impact retention significantly
+  
 **Business Impact**
 - Identified high-risk departments and roles
 - Highlighted gaps in compensation and engagement
 - Provided data-driven recommendations to improve retention
+  
 **Tools Used**
 - Microsoft Excel
 - Pivot Tables

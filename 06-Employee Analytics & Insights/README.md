@@ -12,7 +12,7 @@ It also focuses on identifying key business problems driving attrition and provi
 - Data Visualization (Charts & KPI Cards)
   
 ## Dashboard Preview
-<img width="1395" height="626" alt="HR Attrition Dashboard" src="https://github.com/user-attachments/assets/6c445008-5d48-4d46-a4cd-24f62f2c9e92" />
+<img width="1395" height="626" alt="Employee Attrition Dashboard" src="https://github.com/user-attachments/assets/02319c14-19bb-4316-9da6-7d3b0251420a" />
 
 ## Pivot Table Analysis
 <img width="952" height="598" alt="Employee Attrition Summary" src="https://github.com/user-attachments/assets/03c9c071-a795-4187-bfd7-af11e9ebdc92" />
@@ -37,10 +37,10 @@ This project analyzes employee salary data using Excel, Pivot Tables, and dashbo
 - Pivot Tables
 - Data Visualization (Charts & KPI Cards)
 ## Dashboard Preview
-<img width="1512" height="647" alt="Dashboard" src="https://github.com/user-attachments/assets/11903cb3-3e61-4977-b64f-cfffb78e4889" />
+<img width="1512" height="652" alt="Employee Salary Analytics Dashboard" src="https://github.com/user-attachments/assets/ff9c8432-1eca-468e-ac64-752a88604a4c" />
 
 ## Pivot Table Analysis
-<img width="1130" height="588" alt="Pivot Table" src="https://github.com/user-attachments/assets/07a59c39-c524-47c5-98db-b842dbe84d07" />
+<img width="1135" height="560" alt="Employee Salary Analytics Summary" src="https://github.com/user-attachments/assets/9994e218-3198-4888-bd8b-0e5058558d8d" />
 
 ## Key Insights
 - Executive and technical roles dominate the highest salary range.

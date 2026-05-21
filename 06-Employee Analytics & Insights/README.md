@@ -26,7 +26,7 @@ It also focuses on identifying key business problems driving attrition and provi
 - Higher attrition from sources like Google (100%) and Indeed (61%) compared to referrals (24%) suggests differences in hiring quality and cultural fit.
 - Variation in attrition across managers (up to 62%) indicates leadership and team environment significantly impact employee retention.
 
-# HR Salary Analytics Dashboard (Excel)
+# Employee Salary Analytics Dashboard (Excel)
 An interactive Excel dashboard analyzing employee compensation across departments, roles, and performance using Pivot Tables and data visualization.
 
 ## Project Overview
